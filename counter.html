@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        #plus-btn{
+            padding: .5rem 1.2rem;
+            font-size: 2rem;
+            background-color: lightblue;
+            border: none;
+            border-radius: 9px;
+        }
+        #plus-btn:active{
+            background-color: rgb(129, 186, 205);
+        }
+        #minus-btn{
+            padding: .5rem 1.2rem;
+            font-size: 2rem;
+            background-color: lightcoral;
+            border: none;
+            border-radius: 9px;
+        }
+        #minus-btn:active{
+            background-color: rgb(205, 143, 143);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="count">0</h1>
+    <div class="counter">
+        <button id="plus-btn">+</button>
+        <button id="minus-btn">-</button>
+    </div>
+
+    <script src="js/counter.js"></script>
+</body>
+</html>
